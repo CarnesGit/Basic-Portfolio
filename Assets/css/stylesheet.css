@@ -1,0 +1,36 @@
+body {
+    background-image: url("/Assets/images/white-waves.png");
+    background-color: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.name {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 285px;
+    color: white;
+}
+
+.click {
+    text-align: right;
+    height: 50px;
+}
+
+img {
+    float: left;
+    padding: 5px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
